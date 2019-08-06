@@ -14,9 +14,9 @@ public class trianglearea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Base's Length -> ");
-        double baselength = sc.nextInt();
+        double baselength = sc.nextDouble();
         System.out.print("Height -> ");
-        double height = sc.nextInt();
+        double height = sc.nextDouble();
         double trianglearea = (baselength*height)/2;
         System.out.println("Triangle Area => " + trianglearea);
     }
