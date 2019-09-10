@@ -2,6 +2,8 @@ import java.util.*;
 class primeloop {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+		System.out.println("This program will check that Is that number is prime from 1 to your max number.");
+		System.out.print("Insert your max number >> ");
 		int max = sc.nextInt();
 		int check = 1;
 		for(int n = 1; n <= max; n++) {
