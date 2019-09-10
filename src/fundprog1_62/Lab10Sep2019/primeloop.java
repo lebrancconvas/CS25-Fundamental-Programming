@@ -8,16 +8,17 @@ class primeloop {
 			if(n == 1) {
 				check = 0;
 			} else {
-				for(int i = 2; i < max; i++) {
+				for(int i = 2; i < n; i++) {
 					if(n % i == 0) {
 						check = 0;
+						break;
 					} else {
 						check = 1;
 					}
 				}
 			}
-			if(check == 0) System.out.println(n + " is not prime.");
-			else System.out.println(n + " is prime.");
+			if(check == 0) System.out.println(n + " is not prime number.");
+			else if(check == 1) System.out.println(n + " is prime number.");
 		}
   }
 }
